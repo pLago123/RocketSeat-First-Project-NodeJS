@@ -75,6 +75,7 @@ This project's structure has its functionality spread along some entities. Up to
 ![github-small](./images/transaction_uml.png)
 
 - **`Balance`**: The balance object is represented as an interface and it is the total amount for income, outcome and grand total for the user's balance.
+
 ![github-small](./images/balance_uml.png)
 
 - **`Route`**: The route file contains the middlewares for the endpoints listed above. It imports the `Transactions Repository` and the `Create Transactions Service` for accessing and processing the `Transactions` entity's data.
@@ -85,7 +86,7 @@ This project's structure has its functionality spread along some entities. Up to
   - **Calculate and retrieve the `Balance`**
   - **Create a new `Transaction`**
 
-![github-small](./images/transactionRepository_uml.png)
+  ![github-small](./images/transactionRepository_uml.png)
 
 - **`Create Transaction Service`**: This object is a class that is responsible for processing the `Transaction`'s data and giving it back to the route that makes use of it.
   So far, the only task it performs is to create a new `Transaction`.
