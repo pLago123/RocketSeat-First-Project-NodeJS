@@ -100,4 +100,4 @@ The data flow at this moment is minimal, it goes from the user, through the repo
 
 ## Running and Testing
 
-This application will can be executed with the command `yarn dev:server` (if you use yarn) or `npm run dev:server` and can be tested with via Jest.js through the commands `yarn test` or `npm run` test. The server will run on the port 3333 by default. (You can alter it in the src/server.js file)
+This application can be executed with the command `yarn dev:server` (if you use yarn) or `npm run dev:server` and can be tested with via Jest.js through the commands `yarn test` or `npm run` test. The server will run on the port 3333 by default. (You can alter it in the src/server.js file)
